@@ -1,21 +1,14 @@
 class Hero: # template
-    pass
 
-hero1 = Hero() # object / instance (instansiate)
-hero2 = Hero()
-hero3 = Hero()
+    def __init__(self, inputName, inputAge, inputSkill):
+        self.name = inputName
+        self.age = inputAge
+        self.skill = inputSkill
 
-hero1.name = 'Hobin'
-hero1.skill = 'all'
+hero1 = Hero("Hobin", 17, "all")
+hero2 = Hero("Taehoon", 18, 'taekwondo')
+hero3 = Hero("Park Hyungseok", 17, 'copy')
 
-hero2.name = 'Taehoon'
-hero2.skill = 'taekwondo'
-
-hero3.name = 'Park Hyungseok'
-hero3.skill = 'copy'
-
-print(hero1)
 print(hero1.__dict__)
-print(hero1.name)
-
-print(hero1.name, 'vs', hero2.name )
+print(hero2.__dict__)
+print(hero3.__dict__)
