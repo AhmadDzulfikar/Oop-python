@@ -29,7 +29,6 @@ hero1.skillUp(' & taekwondo')
 hero1.siapa()
 
 hero2.skillUp(' & taekwondo')
-
 # print(hero1.skill)
 
 print(hero1.getSkill())
