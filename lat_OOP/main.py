@@ -24,3 +24,5 @@ player1.serang(player2)
 print("\n")
 player2.serang(player1)
 
+##tesst
+
