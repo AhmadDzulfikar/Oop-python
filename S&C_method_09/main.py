@@ -13,7 +13,7 @@ class Hero:
     def getJumlah(self):
         return Hero.__jumlah
     
-    # method ini tidak berlaku ke objek, hanya berlaku ke class
+    # method ini tidak berlaku ke objek, tapi berlaku ke class
     def getJumlah1():
         return Hero.__jumlah
     
