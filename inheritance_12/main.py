@@ -1,4 +1,5 @@
 # inheritance = pewarisan 
+# class 1 inherit class 2 (class 1 = super class) (class 2 = subclass)
 
 class Hero:
 
