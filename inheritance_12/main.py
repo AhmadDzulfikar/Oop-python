@@ -20,3 +20,5 @@ A = Hero_damage('A', 600, 300)
 print(sakura.name)
 print(sizune.name)
 print(A.health)
+
+#test
